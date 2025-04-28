@@ -29,7 +29,7 @@
             margin: 0 auto;
             background: #fff;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px #b8008a(0, 0, 0, 0.1);
             padding: 20px;
             flex-grow: 1;  /* Memberi ruang agar konten bisa mengisi sisa layar */
         }
@@ -37,7 +37,7 @@
         /* Heading style */
         h1 {
             text-align: center;
-            color: #333;
+            color: #b8008a;
             margin-top: 30px;
         }
 
@@ -85,7 +85,7 @@
         .page-link {
             font-size: 0.875rem;
             padding: 0.25rem 0.5rem;
-            color: #007BFF;
+            color: #b8008a;
             text-decoration: none;
             border-radius: 0.2rem;
             border: 1px solid #ddd;
@@ -93,14 +93,14 @@
         }
 
         .page-link:hover {
-            background-color: #007BFF;
+            background-color: #b8008a;
             color: #fff;
         }
 
         .page-item.active .page-link {
-            background-color: #007BFF;
+            background-color: #b8008a;
             color: #fff;
-            border-color: #007BFF;
+            border-color: #b8008a;
         }
 
         /* Disabled state styling */
@@ -118,7 +118,7 @@
         /* Footer */
         footer {
             width: 100%;
-            background-color: #212529;
+            background-color: #b8008a;
             color: white;
             padding: 10px;
             text-align: center;

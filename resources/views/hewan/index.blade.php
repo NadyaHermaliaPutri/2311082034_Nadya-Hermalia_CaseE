@@ -35,7 +35,7 @@
                                 <tbody>
                                     @forelse ($pets as $index => $pet)
                                         <tr>
-                                            <td>{{ $index + 1 }}</td>
+                                            <td>{{ $pets->firstItem() + $index }}</td>
                                             <td>{{ $pet->nama_hewan }}</td>
                                             <td>{{ $pet->jenis_hewan }}</td>
                                             <td>{{ $pet->ras }}</td>
@@ -65,7 +65,7 @@
                             </table>
                         </div>
                     </div>
-                    <a href="{{ route('hewan.trash') }}" class="btn btn-primary">Sampah</a>
+                    <a href="{{ route('hewan.trash') }}" class="btn btn-dark">Sampah</a>
                 </div>
             </div>
         </div>
