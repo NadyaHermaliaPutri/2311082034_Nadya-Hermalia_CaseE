@@ -9,6 +9,9 @@
 
 ## About Laravel
 
+Link Google Drive yang berisi video penjelasan project Nadya Hermalia Putri : https://drive.google.com/drive/folders/1VvtFwgT7VtValp5bHGB01vAl3o8cgrIr
+
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
